@@ -1,4 +1,0 @@
-main.adb:2:05: a generic package is not allowed in a use clause
-main.adb:6:04: instantiation error at stack_adt.ads:7
-main.adb:6:04: incorrect placement of aspect "Spark_Mode"
-main.adb:6:04: "Integer_Stack_ADT" is not a library-level package
