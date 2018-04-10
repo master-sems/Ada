@@ -1,0 +1,7 @@
+stack_adt.adb:18:24: info: range check proved[#2]
+stack_adt.adb:23:24: info: range check proved[#6]
+stack_adt.ads:11:16: info: postcondition proved[#5]
+stack_adt.ads:16:16: info: postcondition proved[#3]
+stack_adt.ads:18:36: info: initialization of "X" proved[#0]
+stack_adt.ads:21:16: info: postcondition proved[#4]
+stack_adt.ads:31:43: info: length check proved[#1]

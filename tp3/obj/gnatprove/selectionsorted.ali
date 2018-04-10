@@ -1,0 +1,102 @@
+V "GNAT Lib v2017"
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U selectionsorted%b	selectionsorted.adb	ade6c83e OO PK
+
+U selectionsorted%s	selectionsorted.ads	4de86c69 OO PK
+
+D selectionsorted.ads	20180313105316 4de86c69 selectionsorted%s
+D selectionsorted.adb	20180313104051 e00ea457 selectionsorted%b
+D system.ads		20170516105953 6326c08a system%s
+X 1 selectionsorted.ads
+1K9*SelectionSorted 22l5 22e20 2|1b14 38l5 38t20
+5A9*Vect(integer)<integer> 7r30 12r26 17r38 2|5r30 13r26 27r38
+7U14*Swap 7=19 7>36 7>39 2|5b14 10l8 10t12 32s10
+7a19 V{5A9} 9r15 9r25 9r41 9r58 10r16 10r20 10r38 10r53 2|5b19 6r21 8m7 8r15
+. 9m7
+7i36 I{natural} 9r36 10r33 10r59 2|5b36 6r23 8r9
+7i39 J{natural} 9r53 10r44 10r48 2|5b39 8r17 9r9
+12V13*Min_Index{natural} 12>23 15r16 15r76 2|13b13 25l8 25t17 31s15
+12a23 V{5A9} 14r15 14r26 15r36 15r62 15r74 15r97 2|13b23 14r24 14r35 16r10
+. 16r20 17r19 17r34 18r17 18r24 21r48 21r65 21r73
+15i57 x{integer} 15r99
+17U14*SelectionSort 17=28 2|27b14 36l8 36t21
+17a28 V{5A9} 19r15 19r25 20r30 20r42 20r58 20r66 2|27b28 30r16 31r25 31r32
+. 32m15 33r45 33r66 33r74 34r50 34r61 34r69
+20i25 X{integer} 20r60 20r68
+X 2 selectionsorted.adb
+6i7 N{integer} 9r15
+14i7 N{integer} 18r26 19m16 21r67 24r14
+17i14 X{integer} 18r19 19r21 21r59
+21i43 J{integer} 21r75
+28i7 M{natural} 31m10 32r21
+30i11 I{integer} 31r27 32r18 33r60 34r45 34r71
+33i40 J{integer} 33r68 33r76
+34i40 J{integer} 34r63
+FD 1 selectionsorted.ads
+FS .1 1K9 selectionsorted
+FS .2 7U14 selectionsorted__swap
+FS .3 12V13 selectionsorted__min_index
+FS .4 17U14 selectionsorted__selectionsort
+FD 2 selectionsorted.adb
+FS .1 1K14 selectionsorted -> 1.1
+FS .2 5U14 selectionsorted__swap -> 1.2
+FS .3 13V13 selectionsorted__min_index -> 1.3
+FS .4 27U14 selectionsorted__selectionsort -> 1.4
+FD 3 system.ads
+FS .1 37K9 system
+FX 1 selectionsorted.ads .1 selectionsorted
+F 7*14 selectionsorted__swap 2|.4:32s10
+F 12*13 selectionsorted__min_index 2|.4:31s15
+FX 1 selectionsorted.ads .2 selectionsorted__swap
+F 7=19 selectionsorted__swap__v 9r15 9r25 9r41 9r58 10r16 10r20 10r38 10r53
+. 2|.2:6r21 8m7 8r15 9m7
+F 7>36 selectionsorted__swap__i 9c36 10c33 10c59 2|.2:6c23 8c9
+F 7>39 selectionsorted__swap__j 9c53 10c44 10c48 2|.2:8c17 9c9
+FX 1 selectionsorted.ads .3 selectionsorted__min_index
+F 12>23 selectionsorted__min_index__v 14c15 14c26 15c36 15c62 15c74 15c97
+. 2|.3:14c24 14c35 16c10 16c20 17c19 17c34 18c17 18c24 21c48 21c65 21c73
+F 15*57 selectionsorted__min_index__L9s__x 15c99
+FX 1 selectionsorted.ads .4 selectionsorted__selectionsort
+F 17=28 selectionsorted__selectionsort__v 19r15 19r25 20r30 20r42 20r58 20r66
+. 2|.4:30r16 31r25 31r32 32m15 33r45 33r66 33r74 34r50 34r61 34r69
+F 20*25 selectionsorted__selectionsort__L11s__x 20c60 20c68
+FX 2 selectionsorted.adb .2 selectionsorted__swap
+F 6*7 selectionsorted__swap__n 9r15
+FX 2 selectionsorted.adb .3 selectionsorted__min_index
+F 14*7 selectionsorted__min_index__n 18r26 19m16 21r67 24r14
+F 17*14 selectionsorted__min_index__L_1__x 18c19 19c21 21c59
+F 21*43 selectionsorted__min_index__L_1__L6b__j 21c75
+FX 2 selectionsorted.adb .4 selectionsorted__selectionsort
+F 28*7 selectionsorted__selectionsort__m 31m10 32r21
+F 30*11 selectionsorted__selectionsort__L_2__i 31c27 32c18 33c60 34c45 34c71
+F 33*40 selectionsorted__selectionsort__L_2__L15b__j 33c68 33c76
+F 34*40 selectionsorted__selectionsort__L_2__L19b__j 34c63
+
+QQ SPARKVERSION 2017 (20170515)
+GG EK_REMOTE_STATES RS 0
+GG EK_GLOBALS selectionsorted KIND_PACKAGE_BODY ORIGIN_FLOW var_proof 0 var_in 0 var_out 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 local_ghost 0 local_sub 3 selectionsorted__min_index selectionsorted__swap selectionsorted__selectionsort local_init 0
+GG EK_GLOBALS selectionsorted__swap KIND_SUBPROGRAM ORIGIN_FLOW var_proof 0 var_in 0 var_out 0 calls_proof 0 calls 0 calls_conditional 0 local_var 4 selectionsorted__swap__v selectionsorted__swap__i selectionsorted__swap__j selectionsorted__swap__n local_ghost 0 local_sub 0
+GG EK_GLOBALS selectionsorted__min_index KIND_SUBPROGRAM ORIGIN_FLOW var_proof 0 var_in 0 var_out 0 calls_proof 0 calls 0 calls_conditional 0 local_var 3 selectionsorted__min_index__v selectionsorted__min_index__n selectionsorted__min_index__L_1__x local_ghost 0 local_sub 0
+GG EK_GLOBALS selectionsorted__selectionsort KIND_SUBPROGRAM ORIGIN_FLOW var_proof 0 var_in 0 var_out 0 calls_proof 0 calls 0 calls_conditional 2 selectionsorted__min_index selectionsorted__swap local_var 3 selectionsorted__selectionsort__v selectionsorted__selectionsort__L_2__i selectionsorted__selectionsort__m local_ghost 0 local_sub 0
+GG EK_VOLATILES AR 0 AW 0 ER 0 EW 0
+GG EK_NONBLOCKING 4 selectionsorted selectionsorted__swap selectionsorted__min_index selectionsorted__selectionsort
+GG EK_NONRETURNING 0
+GG EK_TERMINATING 0
+GG EK_DIRECT_CALLS selectionsorted 0
+GG EK_DIRECT_CALLS selectionsorted__swap 0
+GG EK_DIRECT_CALLS selectionsorted__min_index 0
+GG EK_DIRECT_CALLS selectionsorted__selectionsort 2 selectionsorted__swap selectionsorted__min_index
+GG EK_TASKING_INFO selectionsorted ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_TASKING_INFO selectionsorted__swap ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_TASKING_INFO selectionsorted__min_index ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_TASKING_INFO selectionsorted__selectionsort ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

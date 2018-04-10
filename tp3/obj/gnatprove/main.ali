@@ -1,0 +1,52 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U main%b		main.adb		52b26b0a OO SU
+W selectionsorted%s	selectionsorted.adb	selectionsorted.ali
+W system%s		system.ads		system.ali
+
+D main.adb		20180313100724 1f5a0763 main%b
+D selectionsorted.ads	20180313105316 4de86c69 selectionsorted%s
+D system.ads		20170516105953 6326c08a system%s
+X 1 main.adb
+4U11*Main 4b11 8l5 8t9
+5a4 V{2|5A9} 7m18 7r18
+X 2 selectionsorted.ads
+1K9*SelectionSorted 1|1w6 2r6 2|22e20
+5A9*Vect(integer)<integer> 1|5r7
+17U14*SelectionSort 1|7s4
+FD 1 main.adb
+FS .1 4U11 main
+FD 2 selectionsorted.ads
+FS .1 1K9 selectionsorted
+FS .2 7U14 selectionsorted__swap
+FS .3 12V13 selectionsorted__min_index
+FS .4 17U14 selectionsorted__selectionsort
+FD 3 system.ads
+FS .1 37K9 system
+FS .2 77V13 system__Olt
+FS .3 78V13 system__Ole
+FS .4 79V13 system__Ogt
+FS .5 80V13 system__Oge
+FS .6 81V13 system__Oeq
+FX 1 main.adb .1 main
+F 5*4 main__v 7m18 7r18
+FX 2 selectionsorted.ads .1 selectionsorted
+F 17*14 selectionsorted__selectionsort 1|.1:7s4
+
+QQ SPARKVERSION 2017 (20170515)
+GG EK_REMOTE_STATES RS 0
+GG EK_GLOBALS main KIND_SUBPROGRAM ORIGIN_FRONTEND var_proof 0 var_in 0 var_out 0 calls_proof 0 calls 0 calls_conditional 1 selectionsorted__selectionsort local_var 0 local_ghost 0 local_sub 0
+GG EK_VOLATILES AR 0 AW 0 ER 0 EW 0
+GG EK_NONBLOCKING 0
+GG EK_NONRETURNING 1 main
+GG EK_TERMINATING 0
+GG EK_DIRECT_CALLS main 0
+GG EK_END_MARKER

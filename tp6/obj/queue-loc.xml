@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/sems1702/queue.gpr</vfs_project>
+      <vfs_file>/home/sems1702/src/queue_adt.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
